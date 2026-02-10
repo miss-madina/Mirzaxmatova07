@@ -20,6 +20,7 @@ int main() {
     char charName = 'A';
 
     // 6. Print values and sizes
+     cout << "\t \t PROBLEM1"<< endl;
     cout << "Number of Students =" << intNumber
          << ", Size = " << sizeof(intNumber) << " bytes" << endl;
 
@@ -34,11 +35,24 @@ int main() {
 
     cout << "charName = " << charName
          << ", Size = " << sizeof(charName) << " bytes" << endl;
+     cout << "\t \t PROBLEM2"<< endl;
 
      cout << "\"I'am standing\" on the edge of some crazy cliff.\n What I have to do,"
-             "I have to catch everybody\\\n if they start to go over cliff-I maean\\n"
+             "I have to catch everybody\\\n if they start to go over cliff-I mean\n"
              "\\if they're running and they don't look\n where they're going I have to come out \n"
-             "from somewhere and \t catch them.";
+             "from somewhere and \t \t catch them."<<endl;
+     cout << "\t \t PROBLEM3"<<endl;
+     int a=189;
+     char b='B';
+     float number=a/3;
+     double value=b;
+     float y=(a+b)/5;
+     double character=(a/10)-1;
+     cout << number<<endl;
+     cout<< value<<endl;
+     cout<< y<<endl;
+     cout << char(character+(double)b);
+
 
     return 0;
 
